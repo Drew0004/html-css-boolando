@@ -194,3 +194,41 @@ img{
     bottom: 40px;
     padding: 5px;
 }
+
+/* 
+    footer 
+*/
+
+.foot-bar{
+    background-color: #1A1A1A;
+    min-height: 100px;
+}
+
+.foot-info-left > h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.foot-item{
+    padding-top: 10px;
+}
+
+.foot-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-info-left{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.foot-info-right{
+    margin-top: 20px;
+}
+
+.foot-info-right i{
+    padding-top: 10px;
+    letter-spacing: 10px;
+}
