@@ -118,9 +118,16 @@ ul li{
     main 
 */
 
-/* .row-1{
-    width: calc(100% / 3);
-} */
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row-1:nth-child(2){
+    margin: 0 20px;
+}
 
 .card{
     width: calc(100% / 3);
