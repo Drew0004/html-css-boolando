@@ -33,6 +33,31 @@ a{
     display: flex;
 }
 
+.brand{
+    color: gray;
+}
+
+.price{
+    color: red;
+}
+
+.sale{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.back-green{
+    background-color: green;
+}
+
+.back-red{
+    background-color: red;
+}
+
+.white-color{
+    color: white;
+}
+
 /* 
     header 
 */
@@ -92,3 +117,42 @@ ul li{
 /* 
     main 
 */
+
+/* .row-1{
+    width: calc(100% / 3);
+} */
+
+.card{
+    width: calc(100% / 3);
+    margin-top: 50px;
+}
+
+img{
+    width: 100%;
+}
+
+.img-box{
+    position: relative;
+}
+
+.heart{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 10px;
+}
+
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    padding: 5px;
+}
+
+.sustenibility{
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    padding: 5px;
+}
