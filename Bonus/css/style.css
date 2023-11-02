@@ -1,0 +1,238 @@
+/* 
+    reset 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    general 
+*/
+
+*{
+    font-family: 'Helvetica', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.gray-color{
+    color: #E7E7E7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-flex{
+    display: flex;
+}
+
+.brand{
+    color: gray;
+}
+
+.price{
+    color: red;
+}
+
+.sale{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.back-green{
+    background-color: green;
+}
+
+.back-red{
+    background-color: red;
+}
+
+.white-color{
+    color: white;
+}
+
+/* 
+    header 
+*/
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.orange-nav{
+    background-color: #F66904;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.navbar > *{
+    width: calc(100% / 3); 
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo-container{
+    width: 15%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories{
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icons{
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icons > *{
+    padding-left: 10px;
+}
+
+/* 
+    main 
+*/
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card:nth-of-type(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    width: calc( (100% / 3) - 15px);
+    margin-top: 50px;
+}
+
+img{
+    width: 100%;
+}
+
+.img-box{
+    position: relative;
+}
+
+.img-box:hover .visual-image{
+    display: none;
+}
+
+.img-box:hover .hidden{
+    display: block;
+}
+
+.visual-image{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.heart{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 10px;
+}
+
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    padding: 5px;
+}
+
+.sustenibility{
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    padding: 5px;
+}
+
+.sustenibility-attached{
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    padding: 5px;
+}
+
+/* 
+    footer 
+*/
+
+.foot-bar{
+    background-color: #1A1A1A;
+    min-height: 100px;
+}
+
+.foot-info-left > h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.foot-item{
+    padding-top: 10px;
+}
+
+.foot-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-info-left{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.foot-info-right{
+    margin-top: 20px;
+}
+
+.foot-info-right i{
+    padding-top: 10px;
+    letter-spacing: 10px;
+}
