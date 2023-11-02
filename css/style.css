@@ -70,6 +70,9 @@ ul li{
 
 .orange-nav{
     background-color: #F66904;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar{
@@ -123,6 +126,7 @@ ul li{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 60px;
 }
 
 .row-2{
